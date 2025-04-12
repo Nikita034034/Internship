@@ -7,7 +7,7 @@ public class Park {
         this.attractions = attractions;
     }
 
-    public static class Attraction {
+    private static class Attraction {
         private String attractionName;
         private String workingHours;
         private double price;
