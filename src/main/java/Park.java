@@ -1,8 +1,8 @@
 public class Park {
     private String parkName;
-    private Attraction[] attractions;
+    private List<Attraction> attractions;
 
-    public Park(String parkName, Attraction[] attractions) {
+    public Park(String parkName, List<Attraction> attractions) {
         this.parkName = parkName;
         this.attractions = attractions;
     }
